@@ -1,0 +1,26 @@
+﻿@model Website.Models.Card
+
+<div>
+    <h4>Card</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Front)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Front)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Back)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Back)
+        </dd>
+    </dl>
+</div>
